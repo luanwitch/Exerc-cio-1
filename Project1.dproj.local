@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/01 18:41:15.000.888,=C:\Users\luanv\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/01 19:57:02.000.163,=C:\Users\luanv\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/05 18:20:45.000.578,=C:\Users\luanv\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/17 15:32:05.000.253,=C:\Users\luanv\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/17 15:38:33.000.689,=C:\Users\luanv\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/05/17 19:06:31.000.648,C:\Users\luanv\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Projetos\Delphi\Luan\POO\Unit1.dfm</Transaction>
+    <Transaction>2022/05/17 19:06:31.000.648,C:\Users\luanv\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Projetos\Delphi\Luan\POO\Unit1.pas</Transaction>
+    <Transaction>2022/05/17 19:06:36.000.690,C:\Users\luanv\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas=C:\Projetos\Delphi\Luan\POO\Unit2.pas</Transaction>
+    <Transaction>2022/05/17 19:06:43.000.234,C:\Users\luanv\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Projetos\Delphi\Luan\POO\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

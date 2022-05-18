@@ -1,0 +1,85 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TForm1 = class(TForm)
+  private
+    function getNome: string;
+    procedure setNome(const Value: string);
+    function getEndereco: string;
+    procedure setEndereco(const Value: string);
+
+    { Private declarations }
+  public
+    { Public declarations }
+    //Abstração
+    // nome
+    // endereço;
+    property strNome : string read getNome write setNome;
+    property strEndereco : string read getEndereco write setEndereco;
+  end;
+
+  type
+
+  TnomeClasse = class
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+
+    constructor create;
+    destructor destroy; override;
+
+  end;
+
+var
+  Form1: TForm1;
+
+  type
+
+
+implementation
+
+{$R *.dfm}
+
+{ TnomeClasse }
+
+constructor TnomeClasse.create;
+begin
+  inherited create;
+end;
+
+destructor TnomeClasse.destroy;
+begin
+  inherited;
+end;
+
+{ TForm1 }
+
+function TForm1.getEndereco: string;
+begin
+  Result := FEndereco;
+end;
+
+function TForm1.getNome: string;
+begin
+  Result := FNome;
+end;
+
+procedure TForm1.setEndereco(const Value: string);
+begin
+    FEndereco := Value;
+end;
+
+procedure TForm1.setNome(const Value: string);
+begin
+    FNome := Value;
+end;
+
+end.
